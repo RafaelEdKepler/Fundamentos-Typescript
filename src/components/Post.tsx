@@ -13,6 +13,7 @@ interface ContentProps {
 }
 
 export interface PostProps {
+  id?: number;
   content: Array<ContentProps>;
   author: {
     name: string;
